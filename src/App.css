@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.header {
+  background-color: rgb(216, 216, 198);
+  padding: 5px;
+}
+
+.header ul li {
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.header ul li:hover {
+  background-color: antiquewhite;
+}
+
+.aside {}
+
+.profile {
+  padding: 10px;
+}
+
+.profile img {
+  height: 80px;
+}
+
+.navigate {
+  border: 1px solid gainsboro;
+  padding: 10px;
+}
+
+.navigate p {
+  padding: 10px;
+  margin: 2px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.navigate p:hover {
+  background-color: rgb(243, 234, 234);
+}
+
+.count {
+  background-color: rgb(255, 196, 0);
+  padding: 5px;
+  border-radius: 50px;
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.items {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(143, 138, 138);
+}
+
+button {
+  margin: 5px;
+  background-color: #00ff009f;
+  border: none;
+  padding: 10px 20px;
+  color: #045a04;
+  border: 2px solid #07790785;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #32b932;
+  color: white;
+  cursor: pointer;
+}
+
+.alert-container {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  min-width: 400px;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  background: teal;
+
+}
+
+.rel{
+  position: relative;
+  background: red;
+}
+
+.alert .close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+
